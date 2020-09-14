@@ -6,11 +6,25 @@
         <title>Contact</title>
     </head>
 
-    <body>
-        <img src="https://pbs.twimg.com/profile_images/629133921888833536/8nBSn8Km_400x400.jpg" alt="Sanket Rajgarhia (Profile)" style="widht:150px; height:150px;border-radius:50%;">
-        <h1>Sanket Rajgarhia</h1>
-        <hr size="3" noshade />
+    <body leftmargin="10%" lightmargin="10%">
+        <table cellspacing="10">
+            <tbody>
+                <tr>
+                    <td><img src="https://pbs.twimg.com/profile_images/629133921888833536/8nBSn8Km_400x400.jpg" alt="Sanket Rajgarhia (Profile)" style="widht:150px; height:150px;border-radius:50%;"></td>
+                    <td>
+                        <h3>Sanket Rajgarhia</h3>
+                        <address>
+                            <a href="mailto:sanket.rajgarhia@gmail.com">
+                                sanket.rajgarhia@gmail.com</a><br />
+                            <a href="tel:+91-9162778985">+91-9162778985</a><br />
+                        </address>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
+        <hr size="3" noshade />
+        <br>
         <address>
             H/No 1663/C4,<br />
             Road No A/7,<br />
@@ -20,15 +34,37 @@
             JHARKHAND.<br />
             INDIA.<br />
         </address>
-
+        <br>
         <hr size="3" noshade />
 
-        <address>
-            <a href="mailto:sanket.rajgarhia@gmail.com">
-                sanket.rajgarhia@gmail.com</a><br />
-            <a href="tel:+91-9162778985">+91-9162778985</a><br />
-        </address>
-        <p><a href="index.html">Back To Home Page</a></p>
+        <br>
+        <form action="mailto:sanket.rajgarhia@gmail.com" method="post" enctype="text/plain">
+            <table>
+                <tr>
+                    <td><label for="name">Your Name : </label></td>
+                    <td><input id="name" name="input_name" type="text" value=""> <br /></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Your Email : </label></td>
+                    <td><input id="email" name="input_email" type="email" value=""><br /></td>
+                </tr>
+                <tr>
+                    <td valign="top"><label for="message">Your Message : </label><br /></td>
+                    <td><textarea id="message" name="input_message" cols="30" rows="10"></textarea><br /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Submit message"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><br />
+                        <p><a href="index.html">Back To Home Page</a></p><br />
+                    </td>
+                </tr>
+            </table>
+        </form>
+
     </body>
 
 </html>

@@ -1,0 +1,20 @@
+body {
+    background-color: #f5f5f5;
+}
+
+hr {
+    /* <hr> - Dimension of the hr element */
+    height: 0px;
+    width: 10%;
+
+    /* <hr> - Border width,style and color */
+    border-style: none;
+    border-top-width: 10px;
+    border-top-style: dotted;
+    border-color: white;
+
+}
+
+h1, h2, h3{
+  color: #5588a3;
+}
